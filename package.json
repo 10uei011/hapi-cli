@@ -1,0 +1,47 @@
+{
+  "name": "hapi-cli",
+  "version": "0.0.2",
+  "description": "A cli tool for generating Hapi boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava tests/*.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10uei011/hapi-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "isomorphic",
+    "boilerplate",
+    "react",
+    "redux",
+    "react-router",
+    "hapi",
+    "mongo"
+  ],
+  "author": "dipesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/10uei011/hapi-cli/issues"
+  },
+  "homepage": "https://github.com/10uei011/hapi-cli/#readme",
+  "bin": {
+    "hapi": "./bin/main.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "cli-table": "^0.3.1",
+    "commander": "^2.9.0",
+    "elegant-spinner": "^1.0.1",
+    "log-update": "^1.0.2",
+    "shelljs": "^0.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.11.0",
+    "eslint": "^2.10.2"
+  }
+}
