@@ -1,6 +1,6 @@
 {
   "name": "hapi-cli",
-  "version": "0.0.6",
+  "version": "0.0.5",
   "description": "A cli tool for generating Hapi boilerplate",
   "scripts": {
     "test": "ava tests/*.js"
