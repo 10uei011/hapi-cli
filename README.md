@@ -23,5 +23,4 @@ hapi --help // Get help and check usage
 ```
 
 ## License
-
-MERN is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+MIT
